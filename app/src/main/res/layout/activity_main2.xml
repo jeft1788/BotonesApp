@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+
+        android:text="Contained Button"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@android:drawable/ic_input_add"
+        android:text="Contained Button"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOutlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+        android:text="Outlined button"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOutlinedIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:icon="@android:drawable/ic_input_add"
+        android:text="Outlined button"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="Text Button"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        app:icon="@android:drawable/ic_input_add"
+        android:text="Text Button"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/btnToogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Button 1"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Button 2"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Button 3"/>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+</LinearLayout>

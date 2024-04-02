@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HolaAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.HolaAndroid" parent="Base.Theme.HolaAndroid" />
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="strokeColor">@color/secondaryColor</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
+
+    <color name="secondaryColor">#FF9800</color>
+</resources>
